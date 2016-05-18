@@ -8,6 +8,6 @@ import retrofit2.http.GET;
  */
 public interface RequestInterface {
 
-    @GET ("bins/p6j6")
+    @GET ("master/lorica.json")
     Call<JSONResponse> getJSON();
 }

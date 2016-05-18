@@ -29,8 +29,8 @@ public class DataAdapter extends RecyclerView.Adapter<DataAdapter.ViewHolder> {
     public void onBindViewHolder(DataAdapter.ViewHolder viewHolder, int i) {
 
         viewHolder.loric_name.setText(android.get(i).getName());
-       // viewHolder.loric_content.setText(android.get(i).getContent());
-       // viewHolder.loric_location.setText(android.get(i).getImage_location());
+       viewHolder.loric_content.setText(android.get(i).getContent());
+        viewHolder.loric_location.setText(android.get(i).getImage_location());
 
     }
 

@@ -54,10 +54,10 @@ public class MainActivity extends AppCompatActivity {
         loadJSON();
     }
 
-
+//loading the json file hosted on github.3
     private void loadJSON(){
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://api.myjson.com")
+                .baseUrl("https://github.com/JeanHuit/lorica-android/blob/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         RequestInterface request = retrofit.create(RequestInterface.class);
